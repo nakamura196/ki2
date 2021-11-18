@@ -1,0 +1,2563 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" type="text/css" href="share.css" />
+    <link rel="stylesheet" type="text/css" href="font.css" />
+    <script language="JavaScript" type="text/javascript">
+      en = false;
+      mypath = "";
+      mycorner = 0;
+      mysubcorner = 0;
+    </script>
+    <script type="text/javascript" src="main.js"></script>
+    <script language="javascript">
+      <!---
+      function move_page(page_no) {
+        document.move_page.page_no.value = page_no;
+        document.move_page.submit();
+      }
+      //--->
+    </script>
+
+    <title>古典籍総合データベース</title>
+  </head>
+
+  <body>
+    <div id="pagearea">
+      <div id="header">
+        <script language="JavaScript" type="text/javascript">
+          header_write();
+        </script>
+      </div>
+
+      <div>
+        <table width="800" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="130" valign="top">
+              <a href="javascript:tomain();"
+                ><img src="img/m_home.gif" width="125" height="50" border="0"
+              /></a>
+            </td>
+            <td align="center" valign="top" bgcolor="9f9d8d">
+              <div class="search">
+                <table border="0" cellpadding="0" cellspacing="0">
+                  <form method="POST" action="search.php">
+                    <tr>
+                      <td>
+                        <img
+                          src="img/search.gif"
+                          width="25"
+                          height="25"
+                        />&nbsp;
+                      </td>
+                      <td>
+                        <input
+                          type="text"
+                          name="cndbn"
+                          size="40"
+                          maxlength="100"
+                        />
+                      </td>
+                      <td>
+                        &nbsp;表示
+                        <span style="margin: 0px 0px">
+                          <select name="szlmt" size="1">
+                            <option value="10">10</option>
+                            <option value="30" selected>30</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                            <option value="500">500</option>
+                          </select>
+                        </span>
+                        件 &nbsp;
+                      </td>
+                      <td>
+                        <input type="SUBMIT" alt="Go" value="検索" />
+                      </td>
+                    </tr>
+                  </form>
+                </table>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="main">
+        <div class="search_result">
+          <center>
+            <table border="0" width="95%">
+              <tr>
+                <td align="left">
+                  <b
+                    ><font color="#630000" size="3">ヒット件数：</font
+                    ><font color="red" size="3">131</font
+                    ><font color="#630000" size="3">件　検索語：</font>［<font
+                      color="red"
+                      size="3"
+                      >貼込帖</font
+                    ><font color="#630000" size="3">］</font></b
+                  ><br />
+                </td>
+              </tr>
+              <tr>
+                <td align="left">
+                  P.&nbsp;1&nbsp;/&nbsp;1&nbsp;&nbsp;表示件数：500&nbsp[前ページ][次ページ]
+                </td>
+              </tr>
+              <tr>
+                <td align="left"><strong>1</strong>&nbsp;</td>
+              </tr>
+            </table>
+            <table border="1" width="95%">
+              <tr>
+                <td width="20%">&nbsp;</td>
+                <td width="20%">
+                  <font color="#630000" size="3"><b>タイトル</b></font>
+                </td>
+                <td width="20%">
+                  <font color="#630000" size="3"><b>著者/作者</b></font>
+                </td>
+                <td width="20%">
+                  <font color="#630000" size="3"><b>出版事項</b></font>
+                </td>
+                <td width="20%">
+                  <font color="#630000" size="3"
+                    ><b>キーワード<br />（主題）</b></font
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/ne01/ne01_00834/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/ne01/ne01_00834/ne01_00834_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[コ]客印譜<br />kokyaku inpu</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 商業－総記</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/wo01/wo01_02261/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/wo01/wo01_02261/wo01_02261_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[安政大地震紀念帖]<br />ansei daijishin kinenchō</td>
+                <td>　</td>
+                <td>[出版地不明] : [出版者不明], [出版年不明]</td>
+                <td>古典籍 / 社会－総記(含・社会科学総記)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko01/bunko01_01718/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko01/bunko01_01718/bunko01_01718_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[印譜]<br />inpu</td>
+                <td>　</td>
+                <td></td>
+                <td>
+                  古典籍 / 津田文庫 / 歴史・文学 / 東洋史－日本史 / 津田左右吉
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/he05/he05_05799_0003/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/he05/he05_05799/he05_05799_0003/he05_05799_0003_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[詠草集]<br />eisōshū</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 文学－連歌・俳諧・俳句</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/he13/he13_04221/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/he13/he13_04221/he13_04221_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[黄表紙類外題貼交帖]<br />kibyōshirui gedai harimazechō</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 文学－日本の小説(近世)、江戸時代小説</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi06/chi06_04678/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi06/chi06_04678/chi06_04678_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[花押集]<br />kaōshū</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－書</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi05/chi05_03771/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi05/chi05_03771/chi05_03771_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[画品] / 虚心堂 [蒐集]<br />gahin</td>
+                <td>飯島 虚心, 1841-1901<br />iijima, kyoshin　</td>
+                <td></td>
+                <td>古典籍 / 芸術－浮世絵・錦絵</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi10/chi10_04593/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi10/chi10_04593/chi10_04593_0001/chi10_04593_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[近世諸家印譜]<br />kinsei shoka inpu</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－金石・拓本</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/ha05/ha05_03701/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/ha05/ha05_03701/ha05_03701_0001/ha05_03701_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[古版経手鑑]<br />kohankyō tekagami</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 宗教－仏教経典、宗典、雑典</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi05/chi05_03720/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi05/chi05_03720/chi05_03720_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[江戸版画集]<br />edo hangashū</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－浮世絵・錦絵</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko01/bunko01_01734/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko01/bunko01_01734/bunko01_01734_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[習字手本]<br />shūji tehon</td>
+                <td>　</td>
+                <td></td>
+                <td>
+                  古典籍 / 津田文庫 / 歴史・文学 / 東洋史－日本史 / 津田左右吉
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko30/bunko30_b0348/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko30/bunko30_b0348/bunko30_b0348_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[縮緬錦絵貼込帖]<br />chirimen nishikie harikomi chō</td>
+                <td>
+                  歌川 芳幾, 1833-1904<br />utagawa, yoshiiku<br />豊原 国周,
+                  1835-1900<br />toyohara, kunichika<br />歌川 広重,
+                  1826-1869<br />utagawa, hiroshige　
+                </td>
+                <td>[出版地不明] : [出版者不明], [出版年不明]</td>
+                <td>古典籍 / 九曜文庫 / 源氏物語－絵画 / 源氏絵</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi06/chi06_01384/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi06/chi06_01384/chi06_01384_0001/chi06_01384_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[諸家筆跡] / [市島春城] [蒐集]<br />shoka hisseki</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td></td>
+                <td>古典籍 / 芸術－書</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi06/chi06_03869/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi06/chi06_03869/chi06_03869_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[諸家筆蹟]<br />shoka hisseki</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－書</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/he05/he05_01564/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/he05/he05_01564/he05_01564_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[摺物句帖]<br />surimono kujō</td>
+                <td>　</td>
+                <td>[出版地不明] : [出版者不明], [出版年不明]</td>
+                <td>古典籍 / 文学－連歌・俳諧・俳句</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi04/chi04_02435/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi04/chi04_02435/chi04_02435_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[摺物貼込帖]<br />surimono harikomichō</td>
+                <td>　</td>
+                <td>[明治年間]</td>
+                <td>古典籍 / 芸術－絵画</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko01/bunko01_01745/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko01/bunko01_01745/bunko01_01745_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[石斎三体書] / 石斎 [書]<br />sekisai santaisho</td>
+                <td>高橋 石斎, 1820-1875<br />takahashi, sekisai　</td>
+                <td>写(自筆), [書写年不明]<br />sha(jihitsu)</td>
+                <td>
+                  古典籍 / 津田文庫 / 歴史・文学 / 東洋史－日本史 / 津田左右吉
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko10/bunko10_08671/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08671/bunko10_08671_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[納札集]<br />nōsatsushū</td>
+                <td>　</td>
+                <td></td>
+                <td>
+                  古典籍 / 西垣文庫 / ジャーナリズム・広告 / 引札・広告・錦絵
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/he05/he05_05799_0001/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/he05/he05_05799/he05_05799_0001/he05_05799_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[俳諧刷物]<br />haikai surimono</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 文学－連歌・俳諧・俳句</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/he05/he05_06620/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/he05/he05_06620/he05_06620_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  [俳諧摺物貼込帖] / 臣登 [ほか画]<br />haikai surimono
+                  harikomijō
+                </td>
+                <td>渡辺 崋山, 1793-1841<br />watanabe, kazan　</td>
+                <td></td>
+                <td>古典籍 / 文学－連歌・俳諧・俳句</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko31/bunko31_d0186/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_d0186/bunko31_d0186_0001/bunko31_d0186_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[俳諧摺物貼込帖]<br />haikai surimono harikomichō</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 雲英文庫</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i17/i17_02115/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i17/i17_02115/i17_02115_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  [服部仲山詩稿] : [玉巵亭席上] / [服部元立] [撰]<br />hattori
+                  chūzan shikō : gyokushitei sekijō
+                </td>
+                <td>服部 元立, 1736-1808<br />hattori, genryū　</td>
+                <td>写(自筆), [文化2-3(1805-1806)]<br />sha(jihitsu)</td>
+                <td>古典籍 / 服部文庫 / 服部南郭 / 儒学・漢詩 / 漢籍</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi03/chi03_03175/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi03/chi03_03175/chi03_03175_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>[名家短冊帖]<br />meika tanzakuchō</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－書画</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko30/bunko30_b0352/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko30/bunko30_b0352/bunko30_b0352_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  [役者絵他貼込帖] / 国周 画<br />yakusha e hoka harikomichō
+                </td>
+                <td>豊原 国周, 1835-1900<br />toyohara, kunichika　</td>
+                <td>[出版地不明] : [出版者不明], [出版年不明]</td>
+                <td>古典籍 / 九曜文庫 / 源氏物語－絵画 / 源氏絵</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/he10/he10_01781/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/he10/he10_01781/he10_01781_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  [冷泉前中納言消息集] : 太田備後守宛<br />reizei saki no
+                  chūnagon shōsokushū : ōta bingonokami ate
+                </td>
+                <td>　</td>
+                <td>写(自筆), [書写年不明]<br />sha(jihitsu)</td>
+                <td>古典籍 / 文学－散文(日記・随筆・紀行など)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi01/chi01_01414/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414/chi01_01414_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>すつるもおし / [市島謙吉] [蒐集]<br />sutsuru mo oshi</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td></td>
+                <td>古典籍 / 芸術－総記・芸術学(含・文化財一般)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi06/chi06_04687/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi06/chi06_04687/chi06_04687_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>ふるかかみ<br />furukagami</td>
+                <td>　</td>
+                <td>写, [書写年不明]<br />sha</td>
+                <td>古典籍 / 芸術－書</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_03159_b038/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_03159/i04_03159_b038/i04_03159_b038_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>をかのさち / 天童 [編]<br />oka no sachi</td>
+                <td>漆山 天童, 1873-1948<br />urushiyama, tendo　</td>
+                <td></td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i05/i05_00673/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i05/i05_00673/i05_00673_0001/i05_00673_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>一枝堂遺稿. 1-3 / 了阿 [撰]<br />isshidō ikō</td>
+                <td>村田 了阿, 1772-1843<br />murata, ryōa　</td>
+                <td>写(自筆), [書写年不明]<br />sha(jihitsu)</td>
+                <td>古典籍 / 総類－雑纂・雑書</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko10/bunko10_08670/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08670/bunko10_08670_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>稲荷祭納札集<br />inarisai nōsatsushū</td>
+                <td>　</td>
+                <td></td>
+                <td>
+                  古典籍 / 西垣文庫 / ジャーナリズム・広告 / 引札・広告・錦絵
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_03153_a025/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_03153/i04_03153_a025/i04_03153_a025_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  印鑑帳 : 安永己亥改 / 寿喜浦<br />inkanchō : an'ei kigai
+                  aratame
+                </td>
+                <td>　</td>
+                <td>[安永8(1779)頃]</td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i17/i17_00965/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i17/i17_00965/i17_00965_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>印譜<br />inpu</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 服部文庫 / 服部南郭 / 儒学・漢詩 / 漢籍</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi04/chi04_01486/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi04/chi04_01486/chi04_01486_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  雲煙帖 : 蘭渓粉本 / 蘭渓 [画]<br />un'enchō : rankei funpon
+                </td>
+                <td>　</td>
+                <td>写, [書写年不明]<br />sha</td>
+                <td>古典籍 / 芸術－絵画</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0815/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0815/i04_01919_0815_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>越人詩話 / 七松山人 稿<br />etsujin shiwa</td>
+                <td>阪口 仁一郎, 1859-1923<br />sakaguchi, niichirō　</td>
+                <td></td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/he01/he01_00675/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/he01/he01_00675/he01_00675_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  塩田随斎艸稾集 / 塩田随斎 [撰]<br />shioda zuisai sōkōshū
+                </td>
+                <td>塩田 随斎, 1798-1845<br />shioda, zuisai　</td>
+                <td>写(自筆), [書写年不明]<br />sha(jihitsu)</td>
+                <td>古典籍 / 文学－総記</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko01/bunko01_01725/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko01/bunko01_01725/bunko01_01725_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>王陽明先生書 / 石斎 [書]<br />ō yōmei sensei sho</td>
+                <td>高橋 石斎, 1820-1875<br />takahashi, sekisai　</td>
+                <td>写(自筆), 明治3[1870]<br />sha(jihitsu)</td>
+                <td>
+                  古典籍 / 津田文庫 / 歴史・文学 / 東洋史－日本史 / 津田左右吉
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0813/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0813/i04_01919_0813_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>鴎鷺会詩集<br />ōrokai shishū</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi01/chi01_02715/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_02715/chi01_02715_0001/chi01_02715_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  温故雑帖. 第1-20,別巻 / [市島春城] [蒐集]<br />onko zatchō
+                </td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td></td>
+                <td>古典籍 / 芸術－総記・芸術学(含・文化財一般)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0760/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0760/i04_01919_0760_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>回顧録資料. 其1-2 / 市島謙吉 [編]<br />kaikoroku shiryō</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td></td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi04/chi04_00845/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi04/chi04_00845/chi04_00845_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>絵表紙のかずかず<br />ebyōshi no kazukazu</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－絵画</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/ne04/ne04_03963/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/ne04/ne04_03963/ne04_03963_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  貫井君送別泉会 / 松井明丸 [編]<br />nukui kun sōbetsu
+                  senkai<br />水谷雅君来遊小集<br />mizutani gakun raiyū shōshū
+                </td>
+                <td>松井 明丸, ※<br />matsui, akiramaru　</td>
+                <td>写, 明治31-32[1898-1899]<br />sha</td>
+                <td>古典籍 / 商業－金融・貨幣</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko10/bunko10_08672/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08672/bunko10_08672_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  関東大震災図会納札集<br />kantō daishinsai zue nōsatsushū
+                </td>
+                <td>　</td>
+                <td></td>
+                <td>
+                  古典籍 / 西垣文庫 / ジャーナリズム・広告 / 引札・広告・錦絵
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i01/i01_01936/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i01/i01_01936/i01_01936_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>稀本零葉 / 訪書会 編<br />kihon reiyō</td>
+                <td>訪書会<br />hōshokai　</td>
+                <td></td>
+                <td>古典籍 / 総類－総記・学問一般</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi10/chi10_04083/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi10/chi10_04083/chi10_04083_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>汲古漱余 / 市島泰 [蒐集]<br />kyūko sōyo</td>
+                <td>市島 屏山, 1793-1846<br />ichijima, heizan　</td>
+                <td>[出版地不明] : [出版者不明], 弘化2[1845]</td>
+                <td>古典籍 / 芸術－金石・拓本</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi10/chi10_02630/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi10/chi10_02630/chi10_02630_0001/chi10_02630_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>旧藩印鑑. 1-4<br />kyūhan inkan</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－金石・拓本</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko10/bunko10_08618/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08618/bunko10_08618_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>錦絵新聞貼込帖<br />nishikie shinbun harikomichō</td>
+                <td>
+                  長谷川 貞信, 1848-1940<br />hasegawa, sadanobu<br />笹木 芳光,
+                  1850-1891※<br />sasaki, yoshimitsu　
+                </td>
+                <td></td>
+                <td>
+                  古典籍 / 西垣文庫 / ジャーナリズム・広告 / 引札・広告・錦絵
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi09/chi09_03977/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi09/chi09_03977/chi09_03977_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  金襴更紗古裂張込帖<br />kinran sarasa kogire harikomichō
+                </td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－美術工芸</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi03/chi03_01407/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi03/chi03_01407/chi03_01407_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>鶏肋雑乗<br />keiroku zatsujō</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－書画</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0775/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0775/i04_01919_0775_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>鶏肋存稿 / 市島春城 [編]<br />keiroku zonkō</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td>昭和3[1928]</td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi01/chi01_02634/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_02634/chi01_02634_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>鶏肋帖 / [市島謙吉] [蒐集]<br />keirokujō</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td></td>
+                <td>古典籍 / 芸術－総記・芸術学(含・文化財一般)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i05/i05_01646/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i05/i05_01646/i05_01646_0001/i05_01646_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  芸海余波. 第1-16集,[附巻] / [松平斉民] [収集]<br />geikai yoha
+                </td>
+                <td>松平 斉民, 1814-1891<br />matsudaira, naritami　</td>
+                <td></td>
+                <td>古典籍 / 総類－雑纂・雑書</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi09/chi09_01072/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi09/chi09_01072/chi09_01072_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>玄々堂銅板画帖 / 玄〃堂 [画]<br />gengendō dōhan gajō</td>
+                <td>玄々堂 保居, 1786-1867<br />gengendō, yasuoki　</td>
+                <td>[天保15(1844)頃]</td>
+                <td>古典籍 / 芸術－美術工芸</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/ha05/ha05_01286/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/ha05/ha05_01286/ha05_01286_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>古写経一覧<br />koshakyō ichiran</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 宗教－仏教経典、宗典、雑典</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i01/i01_01366/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i01/i01_01366/i01_01366_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>古版一覧 / [市島春城] [蒐集]<br />kohan ichiran</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td></td>
+                <td>古典籍 / 総類－総記・学問一般</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi10/chi10_04101/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi10/chi10_04101/chi10_04101_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>古碑拓本<br />kosen takuhon</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－金石・拓本</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi06/chi06_03868/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi06/chi06_03868/chi06_03868_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>古筆手鑑<br />kohitsu tekagami</td>
+                <td>　</td>
+                <td>写, [書写年不明]<br />sha</td>
+                <td>古典籍 / 芸術－書</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0781/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0781/i04_01919_0781_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>広軌鉄道意見 / 春城 [撰]<br />kōki tetsudō iken</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td>明治29[1896]</td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i02/i02_02912/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i02/i02_02912/i02_02912_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>江戸刊零葉集<br />edo kan reiyōshū</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 総類－図書館・書誌学、出版、書目類</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi01/chi01_01392/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01392/chi01_01392_0001/chi01_01392_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>考古図纂 / [市島春城] [蒐集]<br />kōko zusan</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td></td>
+                <td>古典籍 / 芸術－総記・芸術学(含・文化財一般)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi06/chi06_00766/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi06/chi06_00766/chi06_00766_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>合摸法帖 / 浅野長祚 [編]<br />gōmo hōjō</td>
+                <td>浅野 梅堂, 1816-1880<br />asano, baidō　</td>
+                <td>自筆(写), 天保3[1832]<br />jihitsu(sha)</td>
+                <td>古典籍 / 芸術－書</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi09/chi09_01002/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi09/chi09_01002/chi09_01002_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>裁鑑<br />kirekagami</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－美術工芸</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/nu06/nu06_09338/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/nu06/nu06_09338/nu06_09338_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  山中翁江戸たより : [三村竹清宛]<br />yamanakaō edo dayori :
+                  mimura chikusei ate
+                </td>
+                <td>
+                  山中 共古, 1850-1928<br />yamanaka, kyōko<br />三村 竹清,
+                  1876-1953<br />mimura, chikusei　
+                </td>
+                <td>写(自筆), [明治35-37(1902-1904)]<br />sha(jihitsu)</td>
+                <td>古典籍 / 伝記－日本人個人伝(被伝者別)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi05/chi05_04194/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi05/chi05_04194/chi05_04194_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>子供あそび錦絵集<br />kodomo asobi nishikieshū</td>
+                <td>
+                  歌川 広重, 1842-1894<br />utagawa, hiroshige<br />歌川 芳盛,
+                  1830-1884<br />utagawa, yoshimori　
+                </td>
+                <td></td>
+                <td>古典籍 / 芸術－浮世絵・錦絵</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0835/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0835/i04_01919_0835_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  市島春城貼込帖 / 市島謙吉 [編]<br />ichishima shunjō
+                  harikomichō
+                </td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td></td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/he01/he01_01407/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/he01/he01_01407/he01_01407_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>詩歌課題集 / 佐藤誠 輯<br />shiika kadaishū</td>
+                <td>佐藤 誠, ※<br />satō, makoto　</td>
+                <td>[明治20(1887)頃]</td>
+                <td>古典籍 / 文学－総記</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi04/chi04_05799/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi04/chi04_05799/chi04_05799_0001/chi04_05799_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>鴫羽掻<br />shigi no hanegaki</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－絵画</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko10/bunko10_08612/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08612/bunko10_08612_0001/bunko10_08612_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  柴田常恵雑貼込帖. 1-2 / [柴田常恵] [撰]<br />shibata jōe zatsu
+                  harikomichō
+                </td>
+                <td>柴田 常恵, 1877-1954<br />shibata, jōe　</td>
+                <td>[出版地不明] : [出版者不明], 昭和10-18[1935-1943]頃</td>
+                <td>
+                  古典籍 / 西垣文庫 / ジャーナリズム・広告 / 引札・広告・錦絵
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi13/chi13_03859/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi13/chi13_03859/chi13_03859_0001/chi13_03859_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  芝居番附. [1-17] / [小寺玉晁] [蒐集]<br />shibai banzuke
+                </td>
+                <td>小寺 玉晁, 1800-1878<br />kodera, gyokuchō　</td>
+                <td></td>
+                <td>古典籍 / 芸術－演劇</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0388/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0388/i04_01919_0388_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  趣味談その折折 / 春城学人 [撰]<br />shumidan sono oriori
+                </td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td>[大正15(1926)頃]</td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko31/bunko31_e1535/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_e1535/bunko31_e1535_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>拾四経脉之図<br />jūshikeimyaku no zu</td>
+                <td>　</td>
+                <td>[出版地不明] : [出版者不明], [出版年不明]</td>
+                <td>古典籍 / 雲英文庫</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0314/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0314/i04_01919_0314_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>春城閑語 / 市島謙吉 [撰]<br />shunjō kango</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td>大正2[1913]</td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0387/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0387/i04_01919_0387_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>春城群譚採余 / 市島春城 [撰]<br />shunjō guntan saiyo</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td>大正15[1926]</td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0389/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0389/i04_01919_0389_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>春城談叢鶏肋 / 春城学人 [撰]<br />shunjō dansō keiroku</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td>大正15[1926]</td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0655/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0655/i04_01919_0655_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>春城漫談 / 市島春城 [撰]<br />shunjō mandan</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td>昭和5-6[1930-1931]</td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko10/bunko10_08709/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08709/bunko10_08709_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>商標・広告等貼込帖<br />shōhyō kōkoku tō harikomichō</td>
+                <td>　</td>
+                <td></td>
+                <td>
+                  古典籍 / 西垣文庫 / ジャーナリズム・広告 / 引札・広告・錦絵
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i05/i05_01647/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i05/i05_01647/i05_01647_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  森本の塵 : 飲食の部<br />morimoto no chiri : inshoku no bu
+                </td>
+                <td>　</td>
+                <td>写, 天保3[1832]序<br />sha</td>
+                <td>古典籍 / 総類－雑纂・雑書</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/he14/he14_08169/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/he14/he14_08169/he14_08169_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  水野葉舟草稿「難船」 / 水野葉舟 [撰]<br />mizuno yōshū sōkō
+                  nansen
+                </td>
+                <td>水野 葉舟, 1883-1947<br />mizuno, yōshū　</td>
+                <td>写(自筆), [書写年不明]<br />sha(jihitsu)</td>
+                <td>古典籍 / 文学－日本の小説(近代以降)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi01/chi01_02363/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_02363/chi01_02363_0001/chi01_02363_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>成山帖. 乾,坤 / [市島春城] [蒐集]<br />jōzanjō</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td></td>
+                <td>古典籍 / 芸術－総記・芸術学(含・文化財一般)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko01/bunko01_01740/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko01/bunko01_01740/bunko01_01740_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>正気歌 / 天祥 [撰] ; 石斎 [書]<br />seiki no uta</td>
+                <td>
+                  文 天祥, 1236-1282<br />bun, tenshō<br />高橋 石斎,
+                  1820-1875<br />takahashi, sekisai　
+                </td>
+                <td>石斎(写), [書写年不明]<br />sekisai(sha)</td>
+                <td>
+                  古典籍 / 津田文庫 / 歴史・文学 / 東洋史－日本史 / 津田左右吉
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi06/chi06_03775/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi06/chi06_03775/chi06_03775_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>清人書簡<br />shinjin shokan</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－書</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/ru04/ru04_04240/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/ru04/ru04_04240/ru04_04240_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>静岡風景 / E. Warren Clark [編]<br />shizuoka fūkei</td>
+                <td>Clark, E. Warren, 1849-1907　</td>
+                <td>[静岡県] : [出版者不明], 明治6[1873]<br />shizuokaken</td>
+                <td>古典籍 / 地理－地理(日本各地)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko08/bunko08_j0053/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko08/bunko08_j0053/bunko08_j0053_0001/bunko08_j0053_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>惜字帖 / 香風来亭 集<br />sekijijō</td>
+                <td>森島 中良, 1754-1810<br />morishima, chūryō　</td>
+                <td>
+                  [出版地不明] : [森島中良], [文化元(1804)頃]<br />morishimachūryō
+                </td>
+                <td>古典籍 / 洋学文庫 / 洋学(蘭学) / 桂川家</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko01/bunko01_01743/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko01/bunko01_01743/bunko01_01743_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  石斎先生手写手鑑類<br />sekisai sensei shusha tekagamirui
+                </td>
+                <td>高橋 石斎, 1820-1875<br />takahashi, sekisai　</td>
+                <td></td>
+                <td>
+                  古典籍 / 津田文庫 / 歴史・文学 / 東洋史－日本史 / 津田左右吉
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi09/chi09_01467/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi09/chi09_01467/chi09_01467_0001/chi09_01467_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>切鏡<br />kirekagami</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－美術工芸</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i01/i01_02068/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i01/i01_02068/i01_02068_0001/i01_02068_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>善本留真譜. 上,中,下冊<br />zenpon ryūshinfu</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 総類－総記・学問一般</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0316/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0316/i04_01919_0316_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>双魚堂閑語 / 市嶋謙吉 [撰]<br />sōgyodō kango</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td>大正元[1912]</td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0315/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0315/i04_01919_0315_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>双魚堂録話 / 春城 [撰]<br />sōgyodō rokuwa</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td>明治44[1911]</td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/nu06/nu06_09339_0011/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/nu06/nu06_09339/nu06_09339_0011/nu06_09339_0011_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>想起録 / 竜渓居士 [撰]<br />sōkiroku</td>
+                <td>矢野 竜渓, 1850-1931<br />yano, ryūkei　</td>
+                <td>[明治24(1891)頃]</td>
+                <td>古典籍 / 伝記－日本人個人伝(被伝者別)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko10/bunko10_08669/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08669/bunko10_08669_0001/bunko10_08669_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>草紙文様集<br />sōshi mon'yōshū</td>
+                <td>　</td>
+                <td>[出版地不明] : [出版者不明], [出版年不明]</td>
+                <td>
+                  古典籍 / 西垣文庫 / ジャーナリズム・広告 / 引札・広告・錦絵
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/he13/he13_03607/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/he13/he13_03607/he13_03607_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>草双紙の表紙<br />kusazōshi no hyōshi</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 文学－日本の小説(近世)、江戸時代小説</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/he13/he13_04159/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/he13/he13_04159/he13_04159_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>草双帋の包装 / [水谷不倒] [収集]<br />kusazōshi no hōsō</td>
+                <td>水谷 不倒, 1858-1943<br />mizutani, futō　</td>
+                <td></td>
+                <td>古典籍 / 文学－日本の小説(近世)、江戸時代小説</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi10/chi10_03869/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi10/chi10_03869/chi10_03869_0001/chi10_03869_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>蔵書印譜. [正],続篇 / 春城 輯<br />zōsho inpu</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td>明治38-41[1905-1908]</td>
+                <td>古典籍 / 芸術－金石・拓本</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/ha04/ha04_01276/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/ha04/ha04_01276/ha04_01276_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>題名牘<br />daimeitoku</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 宗教－仏教総記</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi01/chi01_02470/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_02470/chi01_02470_0001/chi01_02470_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>知新帖. 1-3 / [市島春城] [蒐集]<br />chishinjō</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td></td>
+                <td>古典籍 / 芸術－総記・芸術学(含・文化財一般)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/ru01/ru01_02938/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/ru01/ru01_02938/ru01_02938_0001/ru01_02938_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>地理描図法附図 / 岩橋教章 [画]<br />chiri byōzuhō fuzu</td>
+                <td>岩橋 正智, -1883<br />iwahashi, masatomo　</td>
+                <td>写(自筆), [明治年間]<br />sha(jihitsu)</td>
+                <td>古典籍 / 地理－総記・地理学</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko01/bunko01_01741/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko01/bunko01_01741/bunko01_01741_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>弔屈原賦 / 賈誼 [撰] ; 石斎 [書]<br />kutsugen no fu</td>
+                <td>
+                  賈 誼, 200-168B.C.<br />ka, gi<br />高橋 石斎, 1820-1875<br />takahashi,
+                  sekisai　
+                </td>
+                <td>石斎(写), [書写年不明]<br />sekisai(sha)</td>
+                <td>
+                  古典籍 / 津田文庫 / 歴史・文学 / 東洋史－日本史 / 津田左右吉
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi10/chi10_03734/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi10/chi10_03734/chi10_03734_0001/chi10_03734_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>貞松堂蔵吉金墨本<br />teishōdō zō kikkin bokuhon</td>
+                <td>羅 振玉, 1866-1940<br />ra, shingyoku　</td>
+                <td></td>
+                <td>古典籍 / 芸術－金石・拓本</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0766/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0766/i04_01919_0766_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>蹄塵録 / 春城学人 [編]<br />teijinroku</td>
+                <td>市島 謙吉, 1860-1944<br />ichishima, kenkichi　</td>
+                <td>明治36[1903]</td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi05/chi05_03842/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi05/chi05_03842/chi05_03842_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  東京開化狂画名所 / 月岡米次郎 画<br />tōkyō kaika kyōga meisho
+                </td>
+                <td>月岡 芳年, 1839-1892<br />tsukioka, yoshitoshi　</td>
+                <td>
+                  [東京府] : 綱島亀吉, 明治12-14[1879-1881]<br />tōkyōfu :
+                  tsunashimakamekichi
+                </td>
+                <td>古典籍 / 芸術－浮世絵・錦絵</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/ru04/ru04_03973/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/ru04/ru04_03973/ru04_03973_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>東京名勝図会<br />tōkyō meishō zue</td>
+                <td>　</td>
+                <td>
+                  東京府 : 尾関トヨ, 明治22[1889]<br />tōkyōfu : ozekitoyo
+                </td>
+                <td>古典籍 / 地理－地理(日本各地)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi05/chi05_03703/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi05/chi05_03703/chi05_03703_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>東都三十六景 / 広重 画<br />tōto sanjūrokkei</td>
+                <td>歌川 広重, 1826-1869<br />utagawa, hiroshige　</td>
+                <td>
+                  下谷(江戸) : [相模屋藤吉], [文久元-2(1861-1862)頃]<br />shitaya(edo)
+                  : sagamiyatōkichi※
+                </td>
+                <td>古典籍 / 芸術－浮世絵・錦絵</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi05/chi05_03770/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi05/chi05_03770/chi05_03770_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  当世武勇伝 / 花陽楼国員 画<br />tōsei buyūden<br />太平記英勇伝<br />taiheiki
+                  eiyūden<br />小倉の色紙. 巻之2<br />ogura no shikishi
+                </td>
+                <td>
+                  歌川 国員<br />utagawa, kunikazu<br />条野 採菊, 1832-1902<br />jōno,
+                  saigiku<br />歌川 芳幾, 1833-1904<br />utagawa, yoshiiku　
+                </td>
+                <td></td>
+                <td>古典籍 / 芸術－浮世絵・錦絵</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko31/bunko31_b0030/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_b0030/bunko31_b0030_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  俳諧・和歌一枚摺・休叟句稿ほか貼込帖<br />haikai waka
+                  ichimaizuri kyūsō kukō hoka harikomichō
+                </td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 雲英文庫 / 一枚摺</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko31/bunko31_b0029/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_b0029/bunko31_b0029_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  俳諧その他一枚摺貼込帖<br />haikai sonota ichimaizuri
+                  harikomichō
+                </td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 雲英文庫 / 一枚摺</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko31/bunko31_b0031/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_b0031/bunko31_b0031_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  俳諧その他一枚摺貼込帖<br />haikai sonota ichimaizuri
+                  harikomichō
+                </td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 雲英文庫 / 一枚摺</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko31/bunko31_b0032/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_b0032/bunko31_b0032_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  俳諧その他一枚摺貼込帖<br />haikai sonota ichimaizuri
+                  harikomichō
+                </td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 雲英文庫 / 一枚摺</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi04/chi04_01230/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi04/chi04_01230/chi04_01230_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>俳諧名人三十六歌仙<br />haikai meijin sanjūrokkasen</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－絵画</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi10/chi10_03867/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi10/chi10_03867/chi10_03867_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  博愛堂集古印譜 / 長谷川延年 模鐫<br />hakuaidō shūko inpu
+                </td>
+                <td>長谷川 延年, 1803-1887<br />hasegawa, en'nen　</td>
+                <td></td>
+                <td>古典籍 / 芸術－金石・拓本</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/wo06/wo06_03144/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/wo06/wo06_03144/wo06_03144_0001/wo06_03144_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>番附集<br />banzukeshū</td>
+                <td>　</td>
+                <td>[出版地不明] : [出版者不明], [天保12(1841)序]</td>
+                <td>古典籍 / 社会－風俗・習慣、民俗学(日本)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi05/chi05_04415/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi05/chi05_04415/chi05_04415_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  百撰百笑 / 骨皮道人 [撰] ; 真生 [画]<br />hyakusen hyakushō
+                </td>
+                <td>
+                  骨川道人<br />honekawa dōjin<br />小林 清親, 1847-1915<br />kobayashi,
+                  kiyochika　
+                </td>
+                <td>[明治37(1904)頃]</td>
+                <td>古典籍 / 芸術－浮世絵・錦絵</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi09/chi09_03702/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi09/chi09_03702/chi09_03702_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>布帛帖<br />fuhakujō</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－美術工芸</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i17/i17_02192/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i17/i17_02192/i17_02192_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  服部百助貼込書画帖<br />hattori hyakusuke harikomi shogajō
+                </td>
+                <td>　</td>
+                <td>服阿百, 明治3[1870]<br />fukuahyaku※</td>
+                <td>古典籍 / 服部文庫 / 服部南郭 / 儒学・漢詩 / 漢籍</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/ha04/ha04_00822/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/ha04/ha04_00822/ha04_00822_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>仏像図<br />butsuzōzu</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 宗教－仏教総記</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko08/bunko08_j0158/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko08/bunko08_j0158/bunko08_j0158_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  別後之情 : もたれ袋第一集 / [桂川国興] [撰]<br />betsugo no jō
+                  : motare bukuro daiisshū
+                </td>
+                <td>桂川 甫周, 1826-1881<br />katsuragawa, hoshū　</td>
+                <td>写, [文久元(1861)頃]<br />sha</td>
+                <td>古典籍 / 洋学文庫 / 洋学(蘭学) / 桂川家</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/he09/he09_04385/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/he09/he09_04385/he09_04385_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>万句合<br />manku awase</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 文学－狂歌、狂句、狂詩、狂文</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi09/chi09_03761/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi09/chi09_03761/chi09_03761_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>万国竒観<br />bankoku kikan</td>
+                <td>
+                  Schley, Jacobus van der, 1715-1779<br />Vinkeles, Reiner,
+                  1741-1816<br />Bogerts, C　
+                </td>
+                <td></td>
+                <td>古典籍 / 芸術－美術工芸</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi06/chi06_01394/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi06/chi06_01394/chi06_01394_0001/chi06_01394_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>名流書翰<br />meiryū shokan</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－書</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi03/chi03_01135/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi03/chi03_01135/chi03_01135_0001/chi03_01135_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>落款記 / 浅野梅堂 模<br />rakkanki</td>
+                <td>浅野 梅堂, 1816-1880<br />asano, baidō　</td>
+                <td>[明治9(1876)頃]</td>
+                <td>古典籍 / 芸術－書画</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi03/chi03_01383/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi03/chi03_01383/chi03_01383_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>落款譜<br />rakkanfu</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－書画</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi03/chi03_02659/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi03/chi03_02659/chi03_02659_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>留真研譜<br />ryūshin kenpu</td>
+                <td>　</td>
+                <td>写, [書写年不明]<br />sha</td>
+                <td>古典籍 / 芸術－書画</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi10/chi10_01386/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi10/chi10_01386/chi10_01386_0001/chi10_01386_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>竜蛇帖<br />ryūdajō</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－金石・拓本</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko10/bunko10_08605/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08605/bunko10_08605_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>燐寸商標貼込帖<br />matchi shōhyō harikomichō</td>
+                <td>　</td>
+                <td></td>
+                <td>
+                  古典籍 / 西垣文庫 / ジャーナリズム・広告 / 引札・広告・錦絵
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko10/bunko10_08606/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08606/bunko10_08606_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>燐寸商標貼込帖<br />matchi shōhyō harikomichō</td>
+                <td>　</td>
+                <td></td>
+                <td>
+                  古典籍 / 西垣文庫 / ジャーナリズム・広告 / 引札・広告・錦絵
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko10/bunko10_08607/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08607/bunko10_08607_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>燐寸商標貼込帖<br />matchi shōhyō harikomichō</td>
+                <td>　</td>
+                <td></td>
+                <td>
+                  古典籍 / 西垣文庫 / ジャーナリズム・広告 / 引札・広告・錦絵
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/bunko10/bunko10_08608/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/bunko10/bunko10_08608/bunko10_08608_0001/bunko10_08608_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>燐寸商標貼込帖<br />matchi shōhyō harikomichō</td>
+                <td>　</td>
+                <td></td>
+                <td>
+                  古典籍 / 西垣文庫 / ジャーナリズム・広告 / 引札・広告・錦絵
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02090_0016/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_02090/i04_02090_0016/i04_02090_0016_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  露国時事日録 / [二葉亭四迷] [編]<br />rokoku jiji nichiroku
+                </td>
+                <td>二葉亭 四迷, 1864-1909<br />futabatei, shimei　</td>
+                <td>写(自筆), [明治38(1905)頃]<br />sha(jihitsu)</td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi06/chi06_01980/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi06/chi06_01980/chi06_01980_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>和漢蓮句色紙帖<br />wakan renku shikishijō</td>
+                <td>　</td>
+                <td>(写), [書写年不明]<br />(sha)</td>
+                <td>古典籍 / 芸術－書</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi04/chi04_06346/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi04/chi04_06346/chi04_06346_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>崋山画譜<br />kazan gafu</td>
+                <td>渡辺 崋山, 1793-1841<br />watanabe, kazan　</td>
+                <td></td>
+                <td>古典籍 / 芸術－絵画</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0895/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/i04/i04_01919/i04_01919_0895/i04_01919_0895_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>愧存経歴文書<br />kizon keireki bunsho</td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 総類－叢書、全集、論文集</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/he13/he13_01843/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/he13/he13_01843/he13_01843_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  薊色縫 / 河竹新七 案 ; 柳水亭種清 綴<br />azami no ironui
+                </td>
+                <td>
+                  河竹 黙阿弥, 1816-1893<br />kawatake, mokuami<br />柳水亭
+                  種清, 1821-1907<br />ryūsuitei, tanekiyo　
+                </td>
+                <td>写, [書写年不明]<br />sha</td>
+                <td>古典籍 / 文学－日本の小説(近世)、江戸時代小説</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="http://www.wul.waseda.ac.jp/kotenseki/html/chi10/chi10_04598/index.html"
+                  >
+                    <img
+                      border="2"
+                      src="https://archive.wul.waseda.ac.jp/kosho/chi10/chi10_04598/chi10_04598_0001/chi10_04598_0001_p0001s.jpg"
+                      width="150"
+                    />
+                  </a>
+                </td>
+                <td>
+                  魏斉周隋唐造像銘等拓本集<br />gi sei shū zui tō zōzōmei tō
+                  takuhonshū
+                </td>
+                <td>　</td>
+                <td></td>
+                <td>古典籍 / 芸術－金石・拓本</td>
+              </tr>
+            </table>
+            <table border="0" width="95%">
+              <tr>
+                <td align="left">
+                  <b
+                    ><font color="#630000" size="3">ヒット件数：</font
+                    ><font color="red" size="3">131</font
+                    ><font color="#630000" size="3">件　検索語：</font>［<font
+                      color="red"
+                      size="3"
+                      >貼込帖</font
+                    ><font color="#630000" size="3">］</font></b
+                  ><br />
+                </td>
+              </tr>
+              <tr>
+                <td align="left">
+                  P.&nbsp;1&nbsp;/&nbsp;1&nbsp;&nbsp;表示件数：500&nbsp[前ページ][次ページ]
+                </td>
+              </tr>
+              <tr>
+                <td align="left"><strong>1</strong>&nbsp;</td>
+              </tr>
+            </table>
+            <br />
+          </center>
+        </div>
+        <form method="POST" name="move_page" action="search.php">
+          <input type="HIDDEN" name="page_no" value="1" />
+          <input type="HIDDEN" name="szlmt" value="500" />
+          <input type="HIDDEN" name="cndbn" value="貼込帖" />
+          <input type="HIDDEN" name="cndtitle" value="" />
+          <input type="HIDDEN" name="cndcreator" value="" />
+          <input type="HIDDEN" name="cndimprint" value="" />
+          <input type="HIDDEN" name="cndkeyword" value="" />
+        </form>
+      </div>
+
+      <div id="footer">
+        <script language="JavaScript" type="text/javascript">
+          footer_write();
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
