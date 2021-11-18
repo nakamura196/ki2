@@ -34,7 +34,7 @@ def main(url):
 
     for a in aas:
 
-        print(index, len(aas))
+        
 
         href = a.get("href")
 
@@ -46,6 +46,9 @@ def main(url):
             os.makedirs(dir, exist_ok=True)
 
             opath = dir + "/" + href
+            
+            if index % 20 == 0:
+                print(index, len(aas), url)
 
             if not os.path.exists(opath):
                 download_img(url, opath)
@@ -54,7 +57,12 @@ def main(url):
 
             im = cv2.imread(opath)
 
-            h, w, c = im.shape
+            try:
+                h, w, c = im.shape
+            except Exception as e:
+                print(e)
+                h = 0
+                w = 0
 
             canvas = {
                 "@id": "{}/canvas/p{}".format(iiif_prefix, index),
@@ -129,6 +137,9 @@ index = 0
 for a in aas:
 
     index += 1
+
+    if index < 38:
+        continue
 
     print(index, len(aas))
 

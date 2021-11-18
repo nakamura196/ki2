@@ -9,7 +9,4583 @@
     {
       "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/sequence/normal",
       "@type": "sc:Sequence",
-      "canvases": []
+      "canvases": [
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p8",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p8-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p8",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0001.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[8]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0001.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p7",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p7-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p7",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0002.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[7]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0002.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p6",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p6-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p6",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0003.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[6]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0003.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p5",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p5-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p5",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0004.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[5]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0004.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p16",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p16-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p16",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0005.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[16]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0005.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p15",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p15-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p15",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0006.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[15]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0006.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p14",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p14-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p14",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0007.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[14]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0007.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p13",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p13-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p13",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0008.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[13]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0008.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p24",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p24-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p24",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0009.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[24]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0009.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p23",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p23-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p23",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0010.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[23]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0010.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p22",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p22-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p22",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0011.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[22]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0011.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p21",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p21-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p21",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0012.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[21]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0012.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p32",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p32-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p32",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0013.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[32]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0013.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p31",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p31-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p31",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0014.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[31]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0014.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p30",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p30-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p30",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0015.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[30]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0015.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p29",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p29-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p29",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0016.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[29]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0016.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p40",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p40-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p40",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0017.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[40]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0017.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p39",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p39-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p39",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0018.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[39]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0018.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p38",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p38-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p38",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0019.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[38]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0019.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p37",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p37-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p37",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0020.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[37]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0020.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p48",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p48-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p48",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0021.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[48]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0021.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p47",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p47-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p47",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0022.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[47]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0022.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p46",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p46-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p46",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0023.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[46]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0023.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p45",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p45-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p45",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0024.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[45]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0024.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p56",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p56-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p56",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0025.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[56]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0025.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p55",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p55-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p55",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0026.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[55]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0026.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p54",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p54-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p54",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0027.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[54]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0027.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p53",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p53-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p53",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0028.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[53]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0028.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p64",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p64-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p64",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0029.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[64]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0029.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p63",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p63-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p63",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0030.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[63]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0030.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p62",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p62-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p62",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0031.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[62]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0031.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p61",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p61-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p61",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0032.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[61]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0032.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p72",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p72-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p72",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0033.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[72]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0033.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p71",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p71-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p71",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0034.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[71]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0034.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p70",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p70-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p70",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0035.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[70]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0035.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p69",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p69-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p69",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0036.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[69]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0036.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p80",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p80-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p80",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0037.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[80]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0037.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p79",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p79-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p79",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0038.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[79]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0038.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p78",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p78-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p78",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0039.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[78]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0039.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p77",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p77-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p77",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0040.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[77]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0040.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p88",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p88-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p88",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0041.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[88]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0041.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p87",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p87-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p87",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0042.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[87]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0042.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p86",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p86-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p86",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0043.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[86]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0043.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p85",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p85-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p85",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0044.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[85]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0044.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p96",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p96-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p96",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0045.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[96]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0045.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p95",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p95-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p95",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0046.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[95]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0046.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p94",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p94-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p94",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0047.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[94]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0047.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p93",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p93-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p93",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0048.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[93]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0048.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p104",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p104-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p104",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0049.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[104]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0049.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p103",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p103-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p103",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0050.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[103]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0050.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p102",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p102-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p102",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0051.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[102]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0051.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p101",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p101-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p101",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0052.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[101]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0052.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p112",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p112-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p112",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0053.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[112]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0053.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p111",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p111-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p111",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0054.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[111]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0054.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p110",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p110-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p110",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0055.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[110]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0055.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p109",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p109-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p109",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0056.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[109]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0056.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p120",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p120-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p120",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0057.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[120]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0057.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p119",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p119-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p119",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0058.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[119]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0058.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p118",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p118-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p118",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0059.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[118]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0059.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p117",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p117-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p117",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0060.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[117]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0060.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p128",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p128-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p128",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0061.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[128]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0061.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p127",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p127-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p127",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0062.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[127]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0062.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p126",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p126-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p126",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0063.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[126]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0063.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p125",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p125-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p125",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0064.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[125]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0064.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p136",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p136-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p136",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0065.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[136]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0065.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p135",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p135-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p135",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0066.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[135]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0066.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p134",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p134-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p134",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0067.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[134]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0067.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p133",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p133-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p133",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0068.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[133]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0068.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p144",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p144-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p144",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0069.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[144]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0069.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p143",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p143-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p143",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0070.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[143]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0070.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p142",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p142-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p142",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0071.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[142]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0071.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p141",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p141-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p141",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0072.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[141]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0072.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p152",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p152-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p152",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0073.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[152]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0073.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p151",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p151-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p151",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0074.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[151]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0074.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p150",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p150-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p150",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0075.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[150]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0075.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p149",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p149-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p149",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0076.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[149]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0076.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p160",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p160-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p160",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0077.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[160]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0077.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p159",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p159-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p159",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0078.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[159]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0078.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p158",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p158-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p158",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0079.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[158]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0079.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p157",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p157-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p157",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0080.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[157]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0080.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p168",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p168-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p168",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0081.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[168]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0081.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p167",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p167-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p167",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0082.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[167]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0082.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p166",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p166-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p166",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0083.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[166]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0083.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p165",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p165-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p165",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0084.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[165]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0084.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p176",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p176-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p176",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0085.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[176]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0085.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p175",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p175-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p175",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0086.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[175]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0086.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p174",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p174-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p174",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0087.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[174]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0087.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p173",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p173-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p173",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0088.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[173]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0088.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p184",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p184-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p184",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0089.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[184]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0089.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p183",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p183-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p183",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0090.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[183]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0090.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p182",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p182-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p182",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0091.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[182]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0091.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p181",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p181-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p181",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0092.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[181]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0092.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p192",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p192-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p192",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0093.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[192]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0093.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p191",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p191-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p191",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0094.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[191]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0094.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p190",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p190-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p190",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0095.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[190]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0095.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p189",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p189-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p189",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0096.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[189]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0096.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p200",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p200-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p200",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0097.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[200]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0097.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p199",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p199-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p199",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0098.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[199]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0098.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p198",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p198-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p198",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0099.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[198]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0099.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p197",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p197-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p197",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0100.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[197]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0100.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p208",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p208-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p208",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0101.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[208]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0101.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p207",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p207-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p207",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0102.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[207]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0102.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p206",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p206-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p206",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0103.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[206]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0103.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p205",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p205-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p205",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0104.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[205]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0104.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p216",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p216-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p216",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0105.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[216]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0105.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p215",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p215-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p215",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0106.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[215]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0106.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p214",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p214-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p214",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0107.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[214]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0107.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p213",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p213-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p213",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0108.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[213]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0108.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p224",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p224-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p224",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0109.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[224]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0109.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p223",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p223-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p223",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0110.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[223]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0110.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p222",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p222-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p222",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0111.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[222]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0111.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p221",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p221-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p221",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0112.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[221]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0112.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p232",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p232-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p232",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0113.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[232]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0113.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p231",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p231-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p231",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0114.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[231]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0114.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p230",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p230-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p230",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0115.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[230]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0115.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p229",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p229-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p229",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0116.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[229]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0116.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p240",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p240-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p240",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0117.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[240]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0117.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p239",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p239-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p239",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0118.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[239]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0118.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p238",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p238-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p238",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0119.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[238]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0119.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p237",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p237-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p237",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0120.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[237]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0120.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p248",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p248-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p248",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0121.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[248]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0121.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p247",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p247-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p247",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0122.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[247]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0122.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p246",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p246-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p246",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0123.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[246]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0123.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p245",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p245-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p245",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0124.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[245]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0124.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p256",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p256-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p256",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0125.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[256]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0125.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p255",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p255-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p255",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0126.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[255]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0126.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p254",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p254-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p254",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0127.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[254]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0127.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p253",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p253-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p253",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0128.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[253]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0128.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p264",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p264-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p264",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0129.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[264]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0129.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p263",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p263-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p263",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0130.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[263]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0130.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p262",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p262-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p262",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0131.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[262]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0131.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p261",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p261-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p261",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0132.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[261]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0132.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p272",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p272-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p272",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0133.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[272]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0133.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p271",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p271-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p271",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0134.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[271]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0134.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p270",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p270-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p270",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0135.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[270]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0135.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p269",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p269-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p269",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0136.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[269]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0136.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p280",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p280-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p280",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0137.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[280]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0137.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p279",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p279-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p279",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0138.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[279]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0138.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p278",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p278-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p278",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0139.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[278]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0139.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p277",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p277-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p277",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0140.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[277]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0140.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p288",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p288-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p288",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0141.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[288]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0141.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p287",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p287-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p287",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0142.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[287]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0142.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p286",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p286-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p286",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0143.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[286]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0143.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p285",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p285-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p285",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0144.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[285]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0144.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p296",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p296-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p296",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0145.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[296]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0145.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p295",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p295-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p295",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0146.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[295]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0146.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p294",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p294-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p294",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0147.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[294]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0147.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p293",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p293-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p293",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0148.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[293]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0148.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p304",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p304-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p304",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0149.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[304]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0149.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p303",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p303-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p303",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0150.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[303]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0150.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p302",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p302-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p302",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0151.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[302]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0151.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p301",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p301-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p301",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0152.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[301]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0152.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p312",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p312-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p312",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0153.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[312]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0153.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p311",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p311-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p311",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0154.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[311]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0154.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p310",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p310-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p310",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0155.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[310]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0155.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p309",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p309-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p309",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0156.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[309]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0156.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p320",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p320-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p320",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0157.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[320]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0157.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p319",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p319-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p319",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0158.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[319]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0158.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p318",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p318-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p318",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0159.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[318]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0159.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p317",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p317-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p317",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0160.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[317]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0160.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p328",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p328-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p328",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0161.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[328]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0161.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p327",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p327-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p327",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0162.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[327]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0162.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p326",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p326-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p326",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0163.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[326]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0163.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p325",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p325-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p325",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0164.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[325]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0164.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p336",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p336-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p336",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0165.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[336]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0165.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p335",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p335-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p335",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0166.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[335]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0166.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p334",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p334-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p334",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0167.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[334]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0167.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p333",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p333-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p333",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0168.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[333]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0168.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p344",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p344-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p344",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0169.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[344]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0169.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p343",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p343-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p343",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0170.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[343]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0170.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p342",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p342-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p342",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0171.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[342]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0171.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p341",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p341-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p341",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0172.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[341]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0172.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p352",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p352-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p352",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0173.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[352]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0173.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p351",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p351-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p351",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0174.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[351]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0174.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p350",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p350-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p350",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0175.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[350]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0175.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p349",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p349-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p349",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0176.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[349]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0176.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p360",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p360-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p360",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0177.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[360]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0177.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p359",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p359-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p359",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0178.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[359]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0178.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p358",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p358-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p358",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0179.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[358]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0179.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p357",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p357-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p357",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0180.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[357]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0180.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p366",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p366-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p366",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0181.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[366]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0181.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p365",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p365-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p365",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0182.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[365]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0182.jpg"
+          },
+          "width": 1728
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p364",
+          "@type": "sc:Canvas",
+          "height": 2592,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/annotation/p364-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-chi01_01414/canvas/p364",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_p0183.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2592,
+                "width": 1728
+              }
+            }
+          ],
+          "label": "[364]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/chi01/chi01_01414//chi01_01414_s0183.jpg"
+          },
+          "width": 1728
+        }
+      ]
     }
   ]
 }

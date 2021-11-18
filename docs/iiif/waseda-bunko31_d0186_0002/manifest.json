@@ -9,7 +9,108 @@
     {
       "@id": "https://nakamura196.github.io/ki2/iiif/waseda-bunko31_d0186_0002/sequence/normal",
       "@type": "sc:Sequence",
-      "canvases": []
+      "canvases": [
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-bunko31_d0186_0002/canvas/p8",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-bunko31_d0186_0002/annotation/p8-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-bunko31_d0186_0002/canvas/p8",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_d0186/bunko31_d0186_0002//bunko31_d0186_0002_p0001.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[8]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_d0186/bunko31_d0186_0002//bunko31_d0186_0002_s0001.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-bunko31_d0186_0002/canvas/p7",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-bunko31_d0186_0002/annotation/p7-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-bunko31_d0186_0002/canvas/p7",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_d0186/bunko31_d0186_0002//bunko31_d0186_0002_p0002.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[7]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_d0186/bunko31_d0186_0002//bunko31_d0186_0002_s0002.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-bunko31_d0186_0002/canvas/p6",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-bunko31_d0186_0002/annotation/p6-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-bunko31_d0186_0002/canvas/p6",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_d0186/bunko31_d0186_0002//bunko31_d0186_0002_p0003.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[6]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_d0186/bunko31_d0186_0002//bunko31_d0186_0002_s0003.jpg"
+          },
+          "width": 2592
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-bunko31_d0186_0002/canvas/p5",
+          "@type": "sc:Canvas",
+          "height": 1728,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/ki2/iiif/waseda-bunko31_d0186_0002/annotation/p5-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://nakamura196.github.io/ki2/iiif/waseda-bunko31_d0186_0002/canvas/p5",
+              "resource": {
+                "@id": "https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_d0186/bunko31_d0186_0002//bunko31_d0186_0002_p0004.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1728,
+                "width": 2592
+              }
+            }
+          ],
+          "label": "[5]",
+          "thumbnail": {
+            "@id": "https://archive.wul.waseda.ac.jp/kosho/bunko31/bunko31_d0186/bunko31_d0186_0002//bunko31_d0186_0002_s0004.jpg"
+          },
+          "width": 2592
+        }
+      ]
     }
   ]
 }

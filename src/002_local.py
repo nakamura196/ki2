@@ -58,10 +58,14 @@ def main(id):
 
         path = "data/" + id + "/" + filename
 
-        print(index, len(canvases))
+        print(index, len(canvases), image)
 
         if not os.path.exists(path):
-            download_img(image, path)
+            try:
+                download_img(image, path)
+            except Exception as e:
+                print(e)
+                continue
 
         opath = odir + "/" + str(index).zfill(5) + ".json"
 
