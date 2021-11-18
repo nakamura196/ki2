@@ -10,15 +10,7 @@ def download_img(url, file_name):
             r.raw.decode_content = True
             shutil.copyfileobj(r.raw, f)
 
-'''
-ndl_id = "1286722"
 
-manifest = "https://www.dl.ndl.go.jp/api/iiif/"+ndl_id+"/manifest.json"
-
-
-id = "dignl-" + ndl_id
-
-'''
 
 from bs4 import BeautifulSoup
 
@@ -37,7 +29,7 @@ index = 1
 
 canvasMap = {}
 
-
+iiif_prefix = "https://nakamura196.github.io/ki2/iiif/" + id
 
 for a in aas:
     href = a.get("href")
@@ -61,18 +53,16 @@ for a in aas:
 
         h, w, c = im.shape
 
-        print(h, w)
-
         canvas = {
-            "@id": "https://nakamura196.github.io/hi/data/02/01/{}.json/canvas/p{}".format(id, index),
+            "@id": "{}/canvas/p{}".format(iiif_prefix, index),
             "@type": "sc:Canvas",
             "height": h,
             "images": [
                 {
-                    "@id": "https://nakamura196.github.io/hi/data/02/01/{}.json/annotation/p{}-image".format(id, index),
+                    "@id": "{}/annotation/p{}-image".format(iiif_prefix, index),
                     "@type": "oa:Annotation",
                     "motivation": "sc:painting",
-                    "on": "https://nakamura196.github.io/hi/data/02/01/{}.json/canvas/p{}".format(id, index),
+                    "on": "{}/canvas/p{}".format(iiif_prefix, index),
                     "resource": {
                         "@id": url,
                         "@type": "dctypes:Image",
@@ -101,17 +91,14 @@ for url in sorted(canvasMap):
 
 manifest = {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://nakamura196.github.io/hi/data/02/01/{}.json".format(id),
+    "@id": "{}/manifest.json".format(iiif_prefix),
     "@type": "sc:Manifest",
-    "attribution": "Historiographical Institute The University of Tokyo 東京大学史料編纂所",
-    "description": "仁和 3年 8月～寛平3年12月",
-    "label": "『大日本史料』・1編・1",
-    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
-    "logo": "http://www.hi.u-tokyo.ac.jp/favicon.ico",
+    "attribution": "早稲田大学",
+    "label": "{}".format(id),
     "metadata": [],
     "sequences": [
         {
-            "@id": "https://nakamura196.github.io/hi/data/02/01/{}.json/sequence/normal".format(id),
+            "@id": "{}/sequence/normal".format(iiif_prefix),
             "@type": "sc:Sequence",
             "canvases": canvases
         }
