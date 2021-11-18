@@ -3,12 +3,12 @@
     "http://iiif.io/api/presentation/2/context.json",
     "http://codh.rois.ac.jp/iiif/curation/1/context.json"
   ],
-  "@id": "https://hi-ut.github.io/ryukyu_data2/curation/kokudaka/shoho-0002.json",
+  "@id": "https://nakamura196.github.io/ki2/curation/waseda-ne01_00834.json",
   "@type": "cr:Curation",
   "label": "",
   "selections": [
     {
-      "@id": "https://hi-ut.github.io/ryukyu_data/iiif/shoho-0002/manifest.json/range",
+      "@id": "https://nakamura196.github.io/ki2/curation/waseda-ne01_00834.json/range",
       "@type": "sc:Range",
       "label": "",
       "members": [
@@ -4623,7 +4623,7 @@
         }
       ],
       "within": {
-        "@id": "https://nakamura196.github.io/iiif/waseda-ne01_00834/manifest.json",
+        "@id": "https://nakamura196.github.io/ki2/iiif/waseda-ne01_00834/manifest.json",
         "@type": "sc:Manifest",
         "label": ""
       }

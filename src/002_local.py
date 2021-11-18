@@ -22,7 +22,11 @@ id = "dignl-" + ndl_id
 
 id = "waseda-ne01_00834"
 
-manifest = "https://nakamura196.github.io/iiif/{}/manifest.json".format(id)
+git_prefix = "https://nakamura196.github.io/ki2"
+
+curation_uri = git_prefix + "/curation/{}.json".format(id)
+
+manifest = git_prefix + "/iiif/{}/manifest.json".format(id)
 
 
 dir = "data/" + id
@@ -102,12 +106,12 @@ curation = {
         "http://iiif.io/api/presentation/2/context.json",
         "http://codh.rois.ac.jp/iiif/curation/1/context.json"
     ],
-    "@id": "https://hi-ut.github.io/ryukyu_data2/curation/kokudaka/shoho-0002.json",
+    "@id": curation_uri,
     "@type": "cr:Curation",
     "label": "",
     "selections": [
         {
-            "@id": "https://hi-ut.github.io/ryukyu_data/iiif/shoho-0002/manifest.json/range",
+            "@id": "{}/range".format(curation_uri),
             "@type": "sc:Range",
             "label": "",
             "members": members,
