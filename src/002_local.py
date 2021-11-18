@@ -73,10 +73,14 @@ def main(id):
 
             image_data = open(path, "rb").read()
 
-            response = requests.post(DETECTION_URL, files={"image": image_data}).json()
+            try:
+                response = requests.post(DETECTION_URL, files={"image": image_data}).json()
 
-            with open(opath, mode='wt', encoding='utf-8') as file:
-                json.dump(response, file, ensure_ascii=False, indent=2)
+                with open(opath, mode='wt', encoding='utf-8') as file:
+                    json.dump(response, file, ensure_ascii=False, indent=2)
+            except Exception as e:
+                print(e)
+                continue
 
         r = 1 # canvas["width"] / 600
 

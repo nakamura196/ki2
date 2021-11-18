@@ -10,6 +10,10 @@ def download_img(url, file_name):
             r.raw.decode_content = True
             shutil.copyfileobj(r.raw, f)
 
+git_prefix = "https://nakamura196.github.io/ki2"
+
+curation_uri = git_prefix + "/curation/{}.json".format(id)
+
 '''
 ndl_id = "1286722"
 
@@ -20,8 +24,15 @@ id = "dignl-" + ndl_id
 
 '''
 
+'''
+
 manifest = "https://lib.digitalnc.org/nanna/iiif/106447/manifest"
 id = "digitalnc-" + "106447"
+
+'''
+
+manifest = "https://www.dl.ndl.go.jp/api/iiif/11223490/manifest.json"
+id = "dignl-11223490"
 
 dir = "data/" + id
 odir = "data/json/" + id
@@ -93,12 +104,12 @@ curation = {
         "http://iiif.io/api/presentation/2/context.json",
         "http://codh.rois.ac.jp/iiif/curation/1/context.json"
     ],
-    "@id": "https://hi-ut.github.io/ryukyu_data2/curation/kokudaka/shoho-0002.json",
+    "@id": curation_uri,
     "@type": "cr:Curation",
     "label": "",
     "selections": [
         {
-            "@id": "https://hi-ut.github.io/ryukyu_data/iiif/shoho-0002/manifest.json/range",
+            "@id": "{}/range".format(curation_uri),
             "@type": "sc:Range",
             "label": "",
             "members": members,
