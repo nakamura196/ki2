@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/2/context.json",
+    "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+  ],
+  "@id": "https://nakamura196.github.io/ki2/curation/waseda-chi13_03859_0001.json",
+  "@type": "cr:Curation",
+  "label": "",
+  "selections": [
+    {
+      "@id": "https://nakamura196.github.io/ki2/curation/waseda-chi13_03859_0001.json/range",
+      "@type": "sc:Range",
+      "label": "",
+      "members": [],
+      "within": {
+        "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0001/manifest.json",
+        "@type": "sc:Manifest",
+        "label": ""
+      }
+    }
+  ]
+}

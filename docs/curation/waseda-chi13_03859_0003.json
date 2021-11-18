@@ -1,0 +1,243 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/2/context.json",
+    "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+  ],
+  "@id": "https://nakamura196.github.io/ki2/curation/waseda-chi13_03859_0003.json",
+  "@type": "cr:Curation",
+  "label": "",
+  "selections": [
+    {
+      "@id": "https://nakamura196.github.io/ki2/curation/waseda-chi13_03859_0003.json/range",
+      "@type": "sc:Range",
+      "label": "",
+      "members": [
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p8#xywh=205,112,2171,1483",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.8540768027
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p8#xywh=2091,1422,122,170",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.8312219381
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p8#xywh=197,88,241,948",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.7014191151
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p7#xywh=334,156,1883,1390",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9444365501
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p6#xywh=243,176,1908,1353",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9402891397
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p5#xywh=345,165,1901,1354",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9424688816
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p16#xywh=383,173,1896,1374",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.943453908
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p15#xywh=389,170,1958,1389",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9295927882
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p15#xywh=1407,201,917,1323",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.2864795327
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p14#xywh=215,194,2170,1388",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9455655217
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p13#xywh=280,128,2025,1422",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9465042949
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p24#xywh=244,149,1985,1414",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9529304504
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p23#xywh=300,157,1979,1401",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9388179183
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p22#xywh=234,164,1969,1400",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9508346319
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p21#xywh=295,32,2127,1605",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9362213612
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p32#xywh=186,67,2271,1615",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9366512299
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p31#xywh=166,107,2294,1584",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9387458563
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p30#xywh=271,111,2145,1542",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9435511231
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p29#xywh=165,119,2286,1571",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9383391142
+            }
+          ]
+        },
+        {
+          "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/canvas/p34#xywh=171,85,2232,1519",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.895703733
+            }
+          ]
+        }
+      ],
+      "within": {
+        "@id": "https://nakamura196.github.io/ki2/iiif/waseda-chi13_03859_0003/manifest.json",
+        "@type": "sc:Manifest",
+        "label": ""
+      }
+    }
+  ]
+}

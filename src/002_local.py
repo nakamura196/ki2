@@ -49,14 +49,16 @@ def main(id):
 
     members = []
 
-    for canvas in df["sequences"][0]["canvases"]:
+    canvases = df["sequences"][0]["canvases"]
+
+    for canvas in canvases:
         image = canvas["images"][0]["resource"]["@id"]
 
         filename = image.split("/")[-1]
 
         path = "data/" + id + "/" + filename
 
-        # print(path, image)
+        print(index, len(canvases))
 
         if not os.path.exists(path):
             download_img(image, path)

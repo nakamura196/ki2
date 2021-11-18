@@ -33,6 +33,9 @@ def main(url):
     iiif_prefix = "https://nakamura196.github.io/ki2/iiif/" + id
 
     for a in aas:
+
+        print(index, len(aas))
+
         href = a.get("href")
 
         url = prefix + "/" + href
