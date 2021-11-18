@@ -97,13 +97,14 @@ def main(id):
                 members.append({
                     "@id": member_id,
                     "@type": "sc:Canvas",
-                    "label": "aaa",
+                    "label": "[{}]".format(index + 1),
                     "metadata" : [
                         {
                             "label" : "confidence",
                             "value" : item["confidence"]
                         }
-                    ]
+                    ],
+                    "thumbnail" : canvas["images"][0]["resource"]["service"]["@id"] + "/{},{},{},{}/200,/0/default.jpg".format(x, y, w, h)
                 })
 
         index += 1

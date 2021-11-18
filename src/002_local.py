@@ -2,6 +2,7 @@ import requests
 import os
 import shutil
 import json
+from PIL import Image
 
 def download_img(url, file_name):
     r = requests.get(url, stream=True)
@@ -20,10 +21,12 @@ id = "dignl-" + ndl_id
 
 '''
 
+git_prefix = "https://nakamura196.github.io/ki2"
+
 def main(id):
     # id = "waseda-ne01_00834"
 
-    git_prefix = "https://nakamura196.github.io/ki2"
+    
 
     curation_uri = git_prefix + "/curation/{}.json".format(id)
 
@@ -95,18 +98,32 @@ def main(id):
                 w = int((item["xmax"] - item["xmin"]) * r)
                 h = int((item["ymax"] - item["ymin"]) * r)
 
+                ## thumbnail
+
+                thumb = "../docs/files/medium/" + id + "/" + str(index).zfill(5) + ".jpg"
+
+                if not os.path.exists(thumb):
+                    im = Image.open(path)
+                    im_crop = im.crop((x, y, x+w, y+h))
+
+                    os.makedirs(os.path.dirname(thumb), exist_ok=True)
+                    im_crop.save(thumb)
+
+                ## member
+
                 member_id = canvas["@id"] + "#xywh={},{},{},{}".format(x, y, w, h)
 
                 members.append({
                     "@id": member_id,
                     "@type": "sc:Canvas",
-                    "label": "aaa",
+                    "label": "[{}]".format(index + 1),
                     "metadata" : [
                         {
                             "label" : "confidence",
                             "value" : item["confidence"]
                         }
-                    ]
+                    ],
+                    "thumbnail": thumb.replace("../docs", git_prefix)
                 })
 
         index += 1
