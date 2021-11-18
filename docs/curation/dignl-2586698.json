@@ -1,0 +1,144 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/2/context.json",
+    "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+  ],
+  "@id": "https://nakamura196.github.io/ki2/curation/2586698.json",
+  "@type": "cr:Curation",
+  "label": "",
+  "selections": [
+    {
+      "@id": "https://nakamura196.github.io/ki2/curation/2586698.json/range",
+      "@type": "sc:Range",
+      "label": "",
+      "members": [
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/2586698/canvas/1#xywh=275,126,4674,3266",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9097241163
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/2586698/canvas/2#xywh=270,197,9317,3136",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.919451654
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/2586698/canvas/3#xywh=189,162,9306,3199",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.914301455
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/2586698/canvas/4#xywh=213,168,9280,3242",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9074956179
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/2586698/canvas/5#xywh=254,184,9216,3179",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9182183743
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/2586698/canvas/6#xywh=256,195,9204,3165",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9197064638
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/2586698/canvas/7#xywh=246,192,9246,3164",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9179137945
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/2586698/canvas/8#xywh=234,176,9297,3281",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9148262739
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/2586698/canvas/9#xywh=276,182,9214,3203",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9180634618
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/2586698/canvas/10#xywh=288,190,9277,3145",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9027022719
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/2586698/canvas/11#xywh=4874,102,4662,3196",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9215498567
+            }
+          ]
+        }
+      ],
+      "within": {
+        "@id": "https://www.dl.ndl.go.jp/api/iiif/2586698/manifest.json",
+        "@type": "sc:Manifest",
+        "label": ""
+      }
+    }
+  ]
+}

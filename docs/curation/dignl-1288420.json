@@ -1,0 +1,452 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/2/context.json",
+    "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+  ],
+  "@id": "https://nakamura196.github.io/ki2/curation/1288420.json",
+  "@type": "cr:Curation",
+  "label": "",
+  "selections": [
+    {
+      "@id": "https://nakamura196.github.io/ki2/curation/1288420.json/range",
+      "@type": "sc:Range",
+      "label": "",
+      "members": [
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/1#xywh=1284,721,3566,2872",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.8906956911
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/2#xywh=881,642,4111,2991",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.8805147409
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/3#xywh=1315,663,3375,2895",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.7727926373
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/4#xywh=1440,760,3334,2691",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9020231962
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/5#xywh=1578,896,1333,2476",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.6648061275
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/5#xywh=1486,801,2811,2644",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.3102963567
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/6#xywh=1602,1027,3270,2375",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9254965186
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/7#xywh=1416,940,3175,2413",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.8914424181
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/8#xywh=1559,892,3241,2536",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9469299912
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/9#xywh=1408,1090,3170,2032",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9206058383
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/10#xywh=1389,1111,3505,2025",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9169139266
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/11#xywh=1559,799,3342,2637",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.89651829
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/12#xywh=1469,816,3205,2562",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.7549282908
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/13#xywh=1778,975,2956,2245",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9089165926
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/14#xywh=1251,903,2500,2565",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.7560363412
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/14#xywh=3460,1066,893,2166",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.4172667265
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/15#xywh=1646,798,987,2565",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.5468350649
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/15#xywh=1623,799,3094,2611",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.511631906
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/16#xywh=2570,865,2026,2542",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.8923732638
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/16#xywh=1846,1495,624,1807",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.8526311517
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/16#xywh=1423,993,1062,500",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.8264841437
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/16#xywh=1379,1489,472,1826",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.7846799493
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/16#xywh=1352,831,292,304",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.6772920489
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/16#xywh=2468,2788,188,590",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.6432702541
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/16#xywh=4971,857,681,2526",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.2947691381
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/17#xywh=2102,989,2012,2302",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.7094289064
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/18#xywh=2635,889,1720,2451",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.7774190307
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/19#xywh=1473,791,3234,2606",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9241232276
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/20#xywh=1469,1071,3337,2339",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.8596482873
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/21#xywh=1814,834,3070,2666",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9059863687
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/22#xywh=2918,821,1783,2630",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.6276525855
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/23#xywh=1682,1147,3012,1946",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.8988838196
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/24#xywh=1550,1213,2977,1994",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9254825711
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/25#xywh=1555,710,3243,2683",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9359368682
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/26#xywh=1587,1065,2481,2139",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.918360889
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/27#xywh=1566,1035,3450,2169",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9120637178
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/28#xywh=2779,783,1908,2576",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.6796707511
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/28#xywh=1706,819,1116,2520",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.636092782
+            }
+          ]
+        },
+        {
+          "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/canvas/30#xywh=1363,677,3500,2881",
+          "@type": "sc:Canvas",
+          "label": "aaa",
+          "metadata": [
+            {
+              "label": "confidence",
+              "value": 0.9087325931
+            }
+          ]
+        }
+      ],
+      "within": {
+        "@id": "https://www.dl.ndl.go.jp/api/iiif/1288420/manifest.json",
+        "@type": "sc:Manifest",
+        "label": ""
+      }
+    }
+  ]
+}
