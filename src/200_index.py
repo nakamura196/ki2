@@ -41,7 +41,12 @@ for f in files:
         # 辞書オブジェクト(dictionary)を取得
         df = json.load(file)
 
-        members = df["selections"][0]["members"]
+        
+
+        selection = df["selections"][0]
+
+        members = selection["members"]
+        manifest = selection["within"]["@id"]
 
         index = 0
         for member in members:
@@ -60,7 +65,13 @@ for f in files:
 
             prefix = id.split("-")[0]
 
-            item["source"] = attrs[prefix]
+            item["source"] = [attrs[prefix]]
+
+            item["member"] = member["@id"]
+            item["manifest"] = manifest
+
+            with open("../../poster/static/data/item/{}.json".format(objectID), mode='wt', encoding='utf-8') as file:
+                json.dump(item, file, ensure_ascii=False, indent=2)
 
             indexes.append(item)
 
