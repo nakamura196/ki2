@@ -103,7 +103,12 @@ def main(id):
                 thumb = "../docs/files/medium/" + id + "/" + str(index).zfill(5) + ".jpg"
 
                 if not os.path.exists(thumb):
-                    im = Image.open(path)
+                    try:
+                        im = Image.open(path)
+                    except Exception as e:
+                        print(e)
+                        continue
+                    
                     im_crop = im.crop((x, y, x+w, y+h))
 
                     l = max(h, w)

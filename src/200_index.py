@@ -6,6 +6,12 @@ import glob
 
 files = glob.glob("../docs/curation/*.json")
 
+attrs = {
+    "dignl" : "国立国会図書館",
+    "waseda" : "早稲田大学",
+    "digitalnc" : "その他"
+}
+
 indexes = []
 
 tags = {}
@@ -51,6 +57,10 @@ for f in files:
 
             if objectID in tags:
                 item["tags"] = tags[objectID]
+
+            prefix = id.split("-")[0]
+
+            item["source"] = attrs[prefix]
 
             indexes.append(item)
 

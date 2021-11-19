@@ -14,25 +14,9 @@ git_prefix = "https://nakamura196.github.io/ki2"
 
 curation_uri = git_prefix + "/curation/{}.json".format(id)
 
-'''
-ndl_id = "1286722"
-
-manifest = "https://www.dl.ndl.go.jp/api/iiif/"+ndl_id+"/manifest.json"
-
-
-id = "dignl-" + ndl_id
-
-'''
-
-'''
-
 manifest = "https://lib.digitalnc.org/nanna/iiif/106447/manifest"
 id = "digitalnc-" + "106447"
 
-'''
-
-manifest = "https://www.dl.ndl.go.jp/api/iiif/11223490/manifest.json"
-id = "dignl-11223490"
 
 dir = "data/" + id
 odir = "data/json/" + id
@@ -87,13 +71,14 @@ for canvas in df["sequences"][0]["canvases"]:
             members.append({
                 "@id": member_id,
                 "@type": "sc:Canvas",
-                "label": "aaa",
+                "label": "[{}]".format(index + 1),
                 "metadata" : [
                     {
                         "label" : "confidence",
                         "value" : item["confidence"]
                     }
-                ]
+                ],
+                "thumbnail" : canvas["images"][0]["resource"]["service"]["@id"] + "/{},{},{},{}/200,/0/default.jpg".format(x, y, w, h)
             })
 
     index += 1
