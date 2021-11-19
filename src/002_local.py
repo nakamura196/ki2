@@ -106,8 +106,15 @@ def main(id):
                     im = Image.open(path)
                     im_crop = im.crop((x, y, x+w, y+h))
 
+                    l = max(h, w)
+
+                    r = 150 / l 
+
+                    w2 = int(w * r)
+                    h2 = int(h * r)
+
                     os.makedirs(os.path.dirname(thumb), exist_ok=True)
-                    im_crop.save(thumb)
+                    im_crop.resize((w2, h2)).save(thumb)
 
                 ## member
 
